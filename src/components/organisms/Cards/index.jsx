@@ -1,8 +1,8 @@
 import { Button } from '@rneui/base';
 import { useCallback, useEffect, useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import AddCard from '../../molecules/AddCard';
-import CardItem from '../../molecules/CardItem';
+import AddCard from '../../molecules/add-card';
+import CardItem from '../../molecules/card-item';
 import { COLORS, COMPONENT, FONT } from '../../../constants/style.contstants';
 import { useCards } from '../../../hooks/data';
 import { getRandom } from '../../../utils/number';
